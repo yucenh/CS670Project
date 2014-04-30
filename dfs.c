@@ -58,7 +58,6 @@ int dfs (int x, int y, int r, int c)
 void outputpath()
 {
 	int i ;
-//	printf ("http://www.hacker.org/runaway/index.php?name=yucenh@gmail.com&spw=894dfb5c00516701e162f7050838d34f&path=") ;
 	for (i = pathcnt-1 ; i >= 0; i--)
 	{
 	//	if (path[i] == 'R') printf ("°˙") ;

@@ -7,7 +7,7 @@ import zlib
 
 def fun(prog,level):
 	a = ""
-	url='http://www.hacker.org/runaway/index.php?gotolevel='+str(level)+'&go=Go+To+Level&name=yucenh@gmail.com&password=123456'
+	url='http://www.hacker.org/runaway/index.php?gotolevel='+str(level)+'&go=Go+To+Level&name=***&***'
 #	print url
 	request = urllib2.Request(url)
 	request.add_header('Accept-Encoding', 'gzip')
@@ -44,7 +44,7 @@ def fun(prog,level):
 	endtime = time.clock()  
 	r = r[:r.find(" ") - 1]
 	print r
-	submit = "http://www.hacker.org/runaway/index.php?path=" +r +"&name=yucenh@gmail.com&spw=ce788d1217b0e4bd97954d697b8d8ea1"
+	submit = "http://www.hacker.org/runaway/index.php?path=" +r +"&name=***&spw=***"
 #	time.sleep(1)
 #	print submit
 	s = urllib2.urlopen(submit).read()

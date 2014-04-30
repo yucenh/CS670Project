@@ -35,7 +35,6 @@ void outputpath()
 {
 	int i ;
 	int k = 0;
-//	printf ("http://www.hacker.org/runaway/index.php?name=lzsz1212&password=9gufba2&path=") ;
 	for (i = pathcnt-1 ; i >= 0; i--)
 	{
 	//	if (path[i] == 'R') printf ("°˙") ;
